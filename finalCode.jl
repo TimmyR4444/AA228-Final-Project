@@ -1,7 +1,7 @@
 using Random
 using Statistics
 
-num_decks = 5                                       # Number of decks used
+num_decks = 6                                       # Number of decks used
 total_cards = num_decks * 52
 shuffle_ratio = 0.1                                 # What percentage of cards are left before shuffling
 cards_left_shuffle = shuffle_ratio * total_cards    # Cards left when it's time to shuffle
